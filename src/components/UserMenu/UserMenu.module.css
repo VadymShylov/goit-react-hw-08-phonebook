@@ -1,0 +1,15 @@
+.userMenu__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userMenu__email {
+  color: rgb(63, 61, 86);
+  background-color: rgb(248, 245, 173);;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}

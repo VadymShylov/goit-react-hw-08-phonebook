@@ -1,0 +1,54 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(63, 61, 86);
+}
+
+.input {
+  font-size: 20px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: none;
+  outline-color: rgb(98, 210, 195);
+}
+
+.btn {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0px 3px 3px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.contactsListTitle {
+  font-size: 50px;
+  margin: 50px 0px 30px;
+  text-align: center;
+  color: rgb(63, 61, 86);
+}

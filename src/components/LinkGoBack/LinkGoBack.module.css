@@ -1,0 +1,25 @@
+.linkGoBack {
+  width: 180px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  background-color: rgb(98, 210, 195);
+  color: rgb(63, 61, 86);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.linkGoBack:hover {
+  background-color: rgb(63, 61, 86);
+  color: rgb(98, 210, 195);
+  box-shadow: 0px 3px 3px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}

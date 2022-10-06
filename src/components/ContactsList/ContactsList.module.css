@@ -1,0 +1,16 @@
+.list {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
